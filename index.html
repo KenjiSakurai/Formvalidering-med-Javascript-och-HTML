@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<title> Formvalidering-med-Javascript-och-HTML</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<meta charset="utf-8">
+</head>
+<body> 
+
+    <header>Formvalidering med Javascript och HTML</header>
+
+    <div id="content">
+        <table>
+            <tr>
+                <td>Unsorted:</td>
+                <td class ="arraygrid" id="u1"></td>
+                <td class ="arraygrid" id="u2"></td>
+                <td class ="arraygrid" id="u3"></td>
+                <td class ="arraygrid" id="u4"></td>
+                <td class ="arraygrid" id="u5"></td>
+                <td class ="arraygrid" id="u6"></td>
+                <td class ="arraygrid" id="u7"></td>
+                <td class ="arraygrid" id="u8"></td>
+                <td class ="arraygrid" id="u9"></td>
+                <td class ="arraygrid" id="u10"></td>
+            </tr>
+            <tr>
+                <td>Sorted:</td>
+                <td class ="arraygrid" id="s1"></td>
+                <td class ="arraygrid" id="s2"></td>
+                <td class ="arraygrid" id="s3"></td>
+                <td class ="arraygrid" id="s4"></td>
+                <td class ="arraygrid" id="s5"></td>
+                <td class ="arraygrid" id="s6"></td>
+                <td class ="arraygrid" id="s7"></td>
+                <td class ="arraygrid" id="s8"></td>
+                <td class ="arraygrid" id="s9"></td>
+                <td class ="arraygrid" id="s10"></td>
+            </tr>
+        </table>
+    
+    
+        <img src="Frogspin.gif" alt="frog">
+
+    
+        <form action="#" onsubmit="login()">
+            <fieldset>
+    
+                <legend> Log in </legend>
+    
+                Username:
+                <input type="text" placeholder="Enter Username here" id="uname" class="tb" />
+                Password:
+                <input type="password" placeholder="Enter Password here" id="pass" class="tb" />
+                Confirm Password:
+                <input type="password" placeholder="Confirm Password here" id="cpass" class="tb" />
+                Email:
+                <input type="email" placeholder="Enter Email here" id="email" class="tb" />
+                Confirm TOS:
+                <input type="checkbox" value="yes"  id="check" name="accept">
+    
+                <input type="submit" value="Submit" class="btn"/>
+            
+            </fieldset>
+        </form>
+    </div>
+
+<script src="script.js"></script> 
+</body>
+</html> 
